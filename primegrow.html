@@ -4,33 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prime Grow Farms</title>
-    <link rel="stylesheet" href="styles.css">   
+    <link rel="stylesheet" href="primegrow.css">   
 </head>
 <body>
-    <header>
-        <h1>Prime Grow Farms Limited</h1>
-        <img src="./images/PG Logo 2.jpeg" alt="Prime Grow Farms Logo" width="300">
-        <p>We Grow You Glow</p>
-        <p>We are a modern and sustainable agribusiness focused on crop production, livestock farming, value addition, and innovative food systems. Rooted in Kenya, our vision is to connect farmers, businesses, and consumers to quality food while creating opportunities for growth across Africa and beyond.</p>
-        <p>Be part of the future of agriculture. Whether you are looking for reliable produce, business partnerships, or innovative agricultural solutions, we invite you to explore opportunities with us.</p>
-    </header>
-    <nav>
-        <a href="#explore our work">Explore Our Work</a>
-        <a href="#discover our solutions">Discover Our Solutions</a>
-        <a href="#let's grow together">Let's Grow Together</a>
-    </nav>
-    <nav>
-        <ul>
-            <li><a href="home">Home</a></li>
-            <li><a href="about us">About Us</a></li>
-            <li><a href="our products">Our Products</a></li>
-            <li><a href="our solutions">Our Solutions</a></li>
-            <li><a href="sustainability">Sustainability</a></li>
-            <li><a href="patnerships">Patnerships</a></li>
-            <li><a href="careers">Careers</a></li>
-            <li><a href="insights">Insights</a></li>
-            <li><a href="contact us">Contact Us</a></li>
-        </ul>
-    </nav>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="site-header">
+    <div class="container header-container">
+
+        <a class="brand-logo" href="#home" aria-label="Prime Grow Farms home">
+            <img
+                src="./images/PG Logo 2.jpeg"
+                alt="Prime Grow Farms Ltd"
+                width="160"
+            >
+        </a>
+
+        <nav class="primary-navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="#home" aria-current="page">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#brands">Our Brands</a></li>
+                <li><a href="#solutions">Our Solutions</a></li>
+                <li><a href="#partnerships">Partnerships</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<main id="main-content">
+
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+
+            <div class="hero-content">
+                <p class="hero-eyebrow">
+                    Rooted in Kenya. Growing for the Future.
+                </p>
+
+                <h1>Prime Grow Farms Ltd</h1>
+
+                <p class="hero-tagline">We Grow You Glow</p>
+
+                <p class="hero-description">
+                    We are a modern agribusiness focused on crop production,
+                    livestock farming, value addition, and innovative food
+                    systems. We connect farmers, businesses, and consumers
+                    to quality food while creating opportunities for growth.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#brands">
+                        Explore Our Brands
+                    </a>
+
+                    <a class="btn btn-secondary" href="#partnerships">
+                        Partner With Us
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="./images/Farm Overview.jpg"
+                    alt="Overview of agricultural operations at Prime Grow Farms"
+                    width="500"
+                    fetchpriority="high">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Us and Our Brands sections follow here. -->
+
+</main>
+
+
+    <script src="primegrow.js"></script>
 </body>
 </html>
