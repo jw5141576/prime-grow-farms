@@ -8,8 +8,6 @@
 </head>
 <body>
 
-<a class="skip-link" href="#main-content">Main Content</a>
-
 <header class="site-header">
     <div class="container header-container">
 
@@ -28,7 +26,7 @@
                 <li><a href="#brands">Our Brands</a></li>
                 <li><a href="#solutions">Our Solutions</a></li>
                 <li><a href="#partnerships">Partnerships</a></li>
-                <li><a href="careers">Careers</a></li>
+                <li><a href="#careers">Careers</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
@@ -72,7 +70,7 @@
                 <img
                     src="./images/Farm Overview.jpg"
                     alt="Overview of agricultural operations at Prime Grow Farms"
-                    width="500"
+                    width="600"
                     fetchpriority="high">
             </div>
 
@@ -106,7 +104,7 @@
                     width="400"
                     fetchpriority="high">
             </div>
-            <div class="container mission-content">
+            <div class="mission-content">
                 <h3>Our Mission</h3>
                 <p>
                     To cultivate a sustainable and innovative agricultural ecosystem that 
@@ -114,126 +112,176 @@
                     prosperity for all stakeholders.
                 </p>
             </div>
-            <div class="container vision-content">
+            <div class="vision-content">
                 <h3>Our Vision</h3>
                 <p>
                     To be a leading agribusiness in Kenya, recognized for our commitment 
                     to quality, sustainability, and community development.
                 </p>
             </div>
+        </div>
     </section>
 
-    <section id="brands" class="brands-section">
-        <div class="container">
+    
+<section id="brands" class="brands-section">
+    <div class="container">
+
+        <div class="brands-heading">
             <h2>Our Brands</h2>
             <p>Discover the diverse range of brands under Prime Grow Farms.</p>
         </div>
-        <div class="container brands-content">
-            <div class="Aqua Prime">
-                <img
-                    src="./images/Aqua Prime.jpeg"
-                    alt="Brand 1 Logo"
-                    width="200"
-                    fetchpriority="high">
+
+        <div class="brands-content">
+
+            <article class="brand-card brand-card--aqua">
+                <img class="brand-logo-image"
+                     src="./images/Aqua Prime.jpeg"
+                     alt="Aqua Prime logo"
+                     width="100"
+                     loading="lazy">
+
                 <h3>Aqua Prime</h3>
-                <p>Aqua Prime is a brand dedicated to providing high-quality aquatic products,
-                    including fresh fish and seafood, sourced sustainably to ensure the 
+                <p>
+                    Aqua Prime is a brand dedicated to providing high-quality aquatic products,
+                    including fresh fish and seafood, sourced sustainably to ensure the
                     best taste and nutrition.
                 </p>
-                <img src="./images/Fish 1.jpg" 
-                     alt="Fish Image"
-                     width="400">
-            </div>
-            <div class="Avi Prime">
-                <img
-                    src="./images/Avi Prime.jpeg"
-                    alt="Brand 2 Logo"
-                    width="200"
-                    fetchpriority="high">
-                <h3>Avi Prime</h3>
-                <p>Avi Prime is a brand dedicated to offering premium poultry products,
-                    including fresh eggs and chicken,
-                    raised in humane conditions and processed to maintain the highest standards of quality.
-                </p>
-                <img src="./images/Chicken.jpg" 
-                     alt="Chicken Image"
-                     width="400">
-            </div>
-            <div class="Lacto Prime">
-                <img
-                    src="./images/Lacto Prime.jpeg"
-                    alt="Brand 3 Logo"
-                    width="200"
-                    fetchpriority="high">
-                <h3>Lacto Prime</h3>
-                <p>Lacto Prime is a brand dedicated to providing high-quality dairy products,
-                including fresh milk, cheese, and yogurt, made from locally sourced ingredients.
-                </p>
-                <img src="./images/Dairy.jpg" 
-                     alt="Milk Image"
-                     width="400">
-            </div>
-            <div class="Verdara">
-                <img
-                    src="./images/Verdara.jpeg"
-                    alt="Brand 4 Logo"
-                    width="200"
-                    fetchpriority="high">
-                <h3>Verdara</h3>
-                <p>Verdara is a brand dedicated to offering a wide range of fresh herbs and
-                spices, grown using sustainable farming practices to enhance flavor and nutrition.
-                </p>
-                <img src="./images/Herbs.jpg" 
-                     alt="Herbs Image"
-                     width="400">
-            </div>
-            <div class="Oryza Fresh">
-                <img
-                    src="./images/Oryza.jpeg"
-                    alt="Brand 5 Logo"
-                    width="200"
-                    fetchpriority="high">
-                <h3>Oryza Fresh</h3>
-                <p>Oryza Fresh is a brand dedicated to providing high-quality fresh vegetables 
-                and grain products,sourced from sustainable farms to ensure the best taste and 
-                nutritional value.
-                </p>
-                <img src="./images/Fresh Produce.jpg" 
-                     alt="Fresh Produce Image"
-                     width="400">
-            </div>
-            <div class="Savanna Prime">
-                <img
-                    src="./images/Savanna.jpeg"
-                    alt="Brand 6 Logo"
-                    width="200"
-                    fetchpriority="high">
-                <h3>Savanna Prime</h3>
-                <p>Savanna Prime is dedicated to providing fresh red meat products, 
-                including beef and lamb, sourced from ethically raised livestock and processed
-                to maintain the highest standards of quality and safety.
-                </p>
-                <img src="./images/Beef.jpg" 
-                     alt="Beef Image"
-                     width="400">
-            </div>
-            <div class="Nectare'">
-                <img
-                    src="./images/Nectare.jpeg"
-                    alt="Brand 7 Logo"
-                    width="200"
-                    fetchpriority="high">
-                <h3>Nectare'</h3>
-                <p>Nectare' is a brand dedicated to offering a variety of fresh and organically
-                    sourced natural sweets and confectioneries, crafted to delight the taste buds 
-                    while promoting health and wellness. 
-                </p>
-                <img src="./images/Honey.jpg" 
-                     alt="Sweets Image"
-                     width="400">
-            </div>
 
-    </section>
+                <img class="brand-product-image"
+                     src="./images/Fish 1.jpg"
+                     alt="Fresh fish products"
+                     width="400"
+                     loading="lazy">
+            </article>
+
+            <article class="brand-card brand-card--avi">
+                <img class="brand-logo-image"
+                     src="./images/Avi Prime.jpeg"
+                     alt="Avi Prime logo"
+                     width="100"
+                     loading="lazy">
+
+                <h3>Avi Prime</h3>
+                <p>
+                    Avi Prime is a brand dedicated to offering premium poultry products,
+                    including fresh eggs and chicken, raised in humane conditions and
+                    processed to maintain the highest standards of quality.
+                </p>
+
+                <img class="brand-product-image"
+                     src="./images/Chicken.jpg"
+                     alt="Chicken and poultry products"
+                     width="400"
+                     loading="lazy">
+            </article>
+
+            <article class="brand-card brand-card--lacto">
+                <img class="brand-logo-image"
+                     src="./images/Lacto Prime.jpeg"
+                     alt="Lacto Prime logo"
+                     width="100"
+                     loading="lazy">
+
+                <h3>Lacto Prime</h3>
+                <p>
+                    Lacto Prime is a brand dedicated to providing high-quality dairy products,
+                    including fresh milk, cheese, and yogurt, made from locally sourced ingredients.
+                </p>
+
+                <img class="brand-product-image"
+                     src="./images/Dairy.jpg"
+                     alt="Dairy products"
+                     width="400"
+                     loading="lazy">
+            </article>
+
+            <article class="brand-card brand-card--verdara">
+                <img class="brand-logo-image"
+                     src="./images/Verdara.jpeg"
+                     alt="Verdara logo"
+                     width="100"
+                     loading="lazy">
+
+                <h3>Verdara</h3>
+                <p>
+                    Verdara is a brand dedicated to offering a wide range of fresh herbs and
+                    spices, grown using sustainable farming practices to enhance flavor and nutrition.
+                </p>
+
+                <img class="brand-product-image"
+                     src="./images/Herbs.jpg"
+                     alt="Fresh herbs and spices"
+                     width="400"
+                     loading="lazy">
+            </article>
+
+            <article class="brand-card brand-card--oryza">
+                <img class="brand-logo-image"
+                     src="./images/Oryza.jpeg"
+                     alt="Oryza Fresh logo"
+                     width="100"
+                     loading="lazy">
+
+                <h3>Oryza Fresh</h3>
+                <p>
+                    Oryza Fresh is a brand dedicated to providing high-quality fresh vegetables
+                    and grain products, sourced from sustainable farms to ensure the best taste
+                    and nutritional value.
+                </p>
+
+                <img class="brand-product-image"
+                     src="./images/Fresh Produce.jpg"
+                     alt="Fresh vegetables and produce"
+                     width="400"
+                     loading="lazy">
+            </article>
+
+            <article class="brand-card brand-card--savanna">
+                <img class="brand-logo-image"
+                     src="./images/Savanna.jpeg"
+                     alt="Savanna Prime logo"
+                     width="100"
+                     loading="lazy">
+
+                <h3>Savanna Prime</h3>
+                <p>
+                    Savanna Prime is dedicated to providing fresh red meat products,
+                    including beef and lamb, sourced from ethically raised livestock and
+                    processed to maintain the highest standards of quality and safety.
+                </p>
+
+                <img class="brand-product-image"
+                     src="./images/Beef.jpg"
+                     alt="Beef and red meat products"
+                     width="400"
+                     loading="lazy">
+            </article>
+
+            <article class="brand-card brand-card--nectare">
+                <img class="brand-logo-image"
+                     src="./images/Nectare.jpeg"
+                     alt="Nectare logo"
+                     width="100"
+                     loading="lazy">
+
+                <h3>Nectare'</h3>
+                <p>
+                    Nectare' is a brand dedicated to offering a variety of fresh and organically
+                    sourced natural sweets and confectioneries, crafted to delight the taste buds
+                    while promoting health and wellness.
+                </p>
+
+                <img class="brand-product-image"
+                     src="./images/Honey.jpg"
+                     alt="Honey and natural sweet products"
+                     width="400"
+                     loading="lazy">
+            </article>
+
+        </div>
+    </div>
+</section>
+
     <section id="solutions" class="solutions-section">
         <div class="container">
             <h2>Our Solutions</h2>
@@ -371,7 +419,7 @@
             </div>
         </div>
     </section>
-    <section id="contacts" class="contacts-section">
+    <section id="contact" class="contact-section">
         <div class="container">
             <h2>Contact Us</h2>
             <p>Get in touch with us for inquiries, partnerships, or feedback.</p>
